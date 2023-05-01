@@ -1,5 +1,136 @@
+/* Cabeçalho */
+
 body{
-    background-image: linear-gradient(blue, lightblue);
-    margin: 337px;
+    background: gray;
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+form{
+    background: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    position: center;
+    margin: 50px 175px 175px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#nome, #cursoid, #materiaid, #profid{
+    border: 1.3px solid black;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#cabecalho input{
+    padding: 5px;
+    width: 90%;
+    border: 0;
+    
+}
+
+#profid input{
+    width: 87%;
+
+}
+
+#cursoid input{
+    width: 42%;
+
+}
+
+/* Horarios */
+
+#horario{
+    border: 1.3px solid black;
+    border-radius: 4px;
+    padding: 10px 26px;
+    margin: 5px;
+
+}
+
+#horario td{
+    border: 2px solid black;
+    border-radius: 1px;
+    padding: 9px;
+    width: 9%;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#data1{
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    padding: 3px;
+
+}
+
+#anotacao{
+    padding: 7px;
+    width: 90px;
+    border: 0;
+
+}
+
+/* Provas */
+
+#tabela-prova{
+    border: 1.3px solid black;
+    border-radius: 4px;
+    padding: 10px 26px;
+    margin: 5px;
+
+}
+
+#tabela-prova td{
+    border: 1.3px solid black;
+    border-radius: 4px;
+    padding: 3.5px;
+    text-align: center;
+
+}
+
+#tabela-prova input{
+    border: 0;
+    padding: 6px;
+
+}
+
+#p1{
+    width: 218px;
+
+}
+
+#d1{
+    width: 207px;
+
+}
+
+#a1{
+    width: 418px;
+
+}
+
+/* Botão */
+
+button{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fdfdfd;
+    background: #005d029c;
+    border-radius: 10px;
+    position: relative;
+    left: 576px;
+    bottom: 150px;
 
 }

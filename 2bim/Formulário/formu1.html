@@ -4,25 +4,173 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <script src="formu.js"></script>
     <link rel="stylesheet" href="formu1.css">
+    <title>Formulário</title>
 </head>
 <body>
-    <form class="form" action="aula.php" method="get">
-        <fieldset>
-            <legend><strong>Dados Pessoais</strong></legend>
-        <label for="contato">Email de contato:</label>
-        <input type="email" name="contato" placeholder="Informe seu e-mail" size="100" width="300px" id="contato">
-        <br>
-        <input type="radio" name="semana" size="100" width="300px" id="dia">
-        <label for="dia">Segunda-feira</label>
-        <br>
-        <input type="radio" name="semana1" size="100" width="300px" id="dia1">
-        <label for="dia1">Terça-feira</label>
-        <br>
-        <input type="radio" name="semana2" size="100" width="300px" id="dia2">
-        <label for="dia2">Quarta-feira</label>
-    </fieldset>
+
+        <h1>Formulário</h1>
+
+    <form action="" method="get">
+        <div id="cabecalho">
+            <div id="nome">
+                <label for="username">Nome:</label>
+                <input type="text" id="username" name="username" placeholder="Digite aqui">
+                <br>
+            </div>
+
+            <div id="cursoid">
+                <label for="curso">Curso:</label>
+                <input type="text" id="curso" name="curso" placeholder="Digite aqui">
+                <label for="sala" id="salaid">Sala:</label>
+                <input type="text" id="sala" name="sala" placeholder="Digite aqui">
+                <br>
+            </div>
+    
+            <div id="materiaid">
+                <label for="materia">Matéria:</label>
+                <input type="text" id="materia" name="materia" placeholder="Digite aqui">
+                <br>
+            </div>
+            
+            <div id="profid">
+                <label for="prof">Professor:</label>
+                <input type="text" id="prof" name="prof" placeholder="Digite aqui">
+                <br>
+            </div>
+        </div>
+
+        <div id="horario">
+            <table>
+                <tr id="semana">
+                    <td>Horários</td>
+                    <td>Segunda</td>
+                    <td>Terça</td>
+                    <td>Quarta</td>
+                    <td>Quinta</td>
+                    <td>Sexta</td>
+                    <td>Sabádo</td>
+                </tr>
+               
+                <div id="tabela">
+                    <tr>
+                        <td><input type="time" id="data1"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="time" id="data1"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="time" id="data1"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="time" id="data1"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="time" id="data1"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="time" id="data1"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="time" id="data1"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                        <td><input type="text" id="anotacao" placeholder="Digite aqui"></td>
+                    </tr>
+                </div>
+            
+            </table>
+        </div>
+
+        <div id="provas">
+
+            <table id="tabela-prova">
+                <tr>
+                    <td id="p1">Provas</td>
+                    <td id="d1">Data</td>
+                    <td id="a1">Anotações</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="p1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="d1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="a1" placeholder="Digite aqui"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="text" id="p1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="d1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="a1" placeholder="Digite aqui"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="p1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="d1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="a1" placeholder="Digite aqui"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="p1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="d1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="a1" placeholder="Digite aqui"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="p1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="d1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="a1" placeholder="Digite aqui"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="p1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="d1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="a1" placeholder="Digite aqui"></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="p1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="d1" placeholder="Digite aqui"></td>
+                    <td><input type="text" id="a1" placeholder="Digite aqui"></td>
+                </tr>
+            </table>
+        </div>    
     </form>
+
+    <button onclick="submit()">Baixar Formulário</button>
+
 </body>
 </html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formu3.css">
+    <title>Formulário</title>
+</head>
+<body>
+    
+    <details>
+        <summary>
+            Dados Pessoais
+        </summary>
+
+            <form name="dados-pessoais" action="aulas.php" method="get">
+                <label for="nome1">Nome:</label>
+                <input type="text" name="nome1" id="nome2">
+                <br>
+                <label for="cpf1">CPF:</label>
+                <input type="number" name="cpf1" id="cpf1">
+                <br>
+                <label for="email1">E-mail:</label>
+                <input type="email" name="email1" id="email1">
+                <br>
+                <label for="sexos">Sexo:</label>
+                <select name="sexos" id="sexos">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Prefiro-nao-dizer">Prefiro Não Dizer</option>
+                    <option value="Outros">Outro</option>
+                </select>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+
+    </details>
+
+    <details>
+        <summary>
+            Dados do Responsável 
+        </summary>
+
+            <form name="dados-responsavel" action="aulas.php" method="get">
+                <label for="nome2">Nome:</label>
+                <input type="text" name="nome2" id="nome2">
+                <br>
+                <label for="cpf2">CPF:</label>
+                <input type="number" name="cpf2" id="cpf2">
+                <br>
+                <label for="email2">E-mail:</label>
+                <input type="email" name="email2" id="email3">
+                <br>
+                <label for="sexos1">Sexo:</label>
+                <select name="sexos1" id="sexos1">
+                    <option value="Masculino">Masculino</option>
+                    <option value="Feminino">Feminino</option>
+                    <option value="Prefiro-nao-dizer">Prefiro Não Dizer</option>
+                    <option value="Outros">Outro</option>
+                </select>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+
+    </details>
+
+    <details>
+        <summary>
+            Dados Inscrição de curso da Etec Fernando Prestes
+        </summary>
+
+            <form name="dados-cursos" action="aulas.php" method="get">
+                <label for="nome3">Nome:</label>
+                <input type="text" name="nome3" id="nome3">
+                <br>
+                <label for="cpf3">CPF:</label>
+                <input type="number" name="cpf3" id="cpf3">
+                <br>
+                <label for="email3">E-mail:</label>
+                <input type="email" name="email3" id="email3">
+                <br>
+                <label for="cursos">Cursos:</label>
+                <select name="Curso" id="cursos">
+                    <option value="Administração">Administração</option>
+                    <option value="Comércio">Comércio</option>
+                    <option value="Contabilidade">Contabilidade</option>
+                    <option value="Desenvolvimento-de-Sistemas">Desenvolvimento de Sistemas</option>
+                    <option value="Design-de-Interiores">Design de Interiores</option>
+                    <option value="Edificações">Edificações</option>
+                    <option value="Finanças">Finanças</option>
+                </select>
+                <br>
+                <button type="submit">Enviar</button>
+
+            </form>
+
+    </details>
+
+</body>
+</html>
